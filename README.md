@@ -1,9 +1,6 @@
 # Comments
 
-Comments is a Laravel package. With it you can easily implement native comments for your application.
-
-[![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=for-the-badge)](https://www.patreon.com/laravelista)
-
+This is a clone of laravelista/comments package.  I made this clone to work with Laravel 10.  Please give credit to Mario Bašić for all the work.
 
 ## Overview
 

@@ -1,5 +1,5 @@
 {
-    "name": "laravelista/comments",
+    "name": "seongbae/comments",
     "description": "Comments for Laravel.",
     "keywords": [
         "laravel",
@@ -16,12 +16,12 @@
     "require": {
         "php": "^8.0",
         "erusev/parsedown": "^1.7",
-        "illuminate/database": "^9.0",
-        "illuminate/http": "^9.0",
-        "illuminate/pagination": "^9.0",
-        "illuminate/routing": "^9.0",
-        "illuminate/queue": "^9.0",
-        "illuminate/support": "^9.0",
+        "illuminate/database": "^10.0",
+        "illuminate/http": "^10.0",
+        "illuminate/pagination": "^10.0",
+        "illuminate/routing": "^10.0",
+        "illuminate/queue": "^10.0",
+        "illuminate/support": "^10.0",
         "spatie/laravel-honeypot": "^4.1"
     },
     "autoload": {
