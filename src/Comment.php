@@ -3,6 +3,7 @@
 namespace Laravelista\Comments;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Traits\Macroable;
 use Laravelista\Comments\Events\CommentCreated;
 use Laravelista\Comments\Events\CommentUpdated;
 use Laravelista\Comments\Events\CommentDeleted;
@@ -11,7 +12,7 @@ use Illuminate\Support\Facades\Config;
 
 class Comment extends Model
 {
-	use SoftDeletes;
+	use SoftDeletes, Macroablegi;
 
     /**
      * The relations to eager load on every query.
