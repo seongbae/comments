@@ -15,7 +15,8 @@
     ],
     "require": {
         "php": "^8.3",
-        "spatie/laravel-honeypot": "^4.1"
+        "spatie/laravel-honeypot": "^4.1",
+        "erusev/parsedown": "^1.7"
     },
     "autoload": {
         "psr-4": {
