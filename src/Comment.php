@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Config;
 
 class Comment extends Model
 {
-	use SoftDeletes, Macroable;
+	use SoftDeletes;
 
     /**
      * The relations to eager load on every query.
